@@ -13,3 +13,6 @@ Situations such as introducing an experimental feature or porting the code to a 
 
 How do the diagrams help you visualize the branch structure?
 Diagrams show when and where the branching occured. It also keeps us informed of unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When 2 branches are merged, all changes made on each branch, from the point of branching out, get incroporated into the new, merged branch. The diagram helps visualize that the merged branch has now become the main/primary branch.
