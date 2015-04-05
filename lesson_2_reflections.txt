@@ -16,3 +16,6 @@ Diagrams show when and where the branching occured. It also keeps us informed of
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 When 2 branches are merged, all changes made on each branch, from the point of branching out, get incroporated into the new, merged branch. The diagram helps visualize that the merged branch has now become the main/primary branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging helps eliminate guess work. It makes sure that when 2 branches are merged, the changes are distinct and do not overlap. Manual merges can be prone to errors and misses.
