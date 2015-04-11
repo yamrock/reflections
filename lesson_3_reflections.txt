@@ -11,3 +11,6 @@ Branches allow you to work locally on a repository. It is used typically to work
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is, when the local master is updated and if the remote master has also been updated, we can do a git fetch to update the local copy of the remote repository and then compare to the local master and proceed with resolving merge conflicts (if any) locally, similar to a situation when you have more than one branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I can use Git to keep track of my changes locally (branches and files), however, by creating pull requests and having the option of mergin others' updates through github, I can easily maintain and track the changes made for files within a project.
